@@ -2,6 +2,73 @@
 #page{
 	width: 780px;
 	margin: auto;
-	font-family: sans-serif;
+	font-family: Arial;
 	font-size: 16px;
-    color: blue;
+}
+
+/*  header*/
+h1{
+	font-size: 40px;
+	margin-top: 50px
+}
+span
+{
+	color: blue;
+}
+#metier{
+	font-size: 25px;
+}
+/* partie formaexp*/
+
+#partie_droite{
+	margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gauche{
+	float: left;
+}
+.droite{
+	margin-right: : 150px;
+
+}
+/*BLOC RECOMMANDATION*/
+#recommandation:{
+	display: flex;
+}
+.name{
+    flex-direction: ;
+}
+/*Partie gauche*/
+#photo img
+{   width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+#partie_gauche{
+	position: absolute;
+	top: 20px;
+	left:10px;
+	width: 200px;
+	height: auto;
+	background-color: #58ACF6;
+	
+
+}
+#CONTACT h2{
+	width: 200px
+	text-align: center;
+    background-color: black;
+    color:#58ACF6;
+}
+#PROPOS h2{
+	text-align: center;
+	background-color: black;
+    color: #58ACF6;
+}
+#LOISIRS h2{
+	text-align: center;
+	background-color: black;
+	color: #58ACF6
+}
